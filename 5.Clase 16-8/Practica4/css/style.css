@@ -1,0 +1,16 @@
+
+div {
+	background-color:gray
+}
+
+.imagenes {
+	display:inline-block;
+}
+
+#moduloDerecha {
+	display:inline-block
+}
+
+#header{
+	background-color:black
+}

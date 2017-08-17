@@ -1,0 +1,40 @@
+* {
+	padding:0;
+	margin:0;
+	/*pisa todo*/
+
+}
+
+body{
+	background-color:black;
+	
+}
+#header{
+	background-color:yellow;  /*id especifico del primer div, pisa el otro*/
+	display:inline-block;
+}
+#header h2{
+	font-size:24px;   /*afecta solo a los h2 del #heder*/
+}
+.prueba{  /* class en body*/
+	background-color:white;
+}
+
+div{
+	background-color:blue;   /*clase para los div*/
+	display:inline-block;
+}
+
+div p{
+	color:red; /*afecta al p dentro de todos los div*/
+	text-align:center;
+}
+#header h1{
+	color:pink;
+}
+div h1{
+	color:white;
+}
+div h2{
+	color:green;
+}
