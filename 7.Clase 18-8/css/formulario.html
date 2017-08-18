@@ -1,0 +1,64 @@
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<form action="formulario.html" method="get">
+			<div>
+				<label for="nombre">Nombre</label>
+				<input minlength="3" maxlength="15" type="text" name="nombre" id="nombre" placeholder="Escribi tu nombre" required>
+			</div>
+			<div>
+				<label for="apellido">Apellido</label>
+				<input minlength="3" maxlength="15" type="text" name="apellido" id="apellido" placeholder="Escribi tu apellido" required>
+			</div>
+			<div>
+				<label for="edad">Edad</label>
+				<input step="3" min="1" max="99" type="number" name="edad" id="edad" placeholder="Elegí edad" value="18">
+			</div>
+			<div>
+				<label for="campo_nombre">Email</label>
+				<input type="email" name="email" id="email" placeholder="Escribi tu email" required>
+			</div>
+				<label for="mensaje">Mensaje</label>
+				<textarea id=mensaje placeholder="Escribi tu mensaje"></textarea>
+			<div>
+				<input id="terminosycondiciones" type="checkbox" checked="true" required>
+				<label for=terminosycondiciones>Acepta terminos y condiciones</label>
+			</div>
+			<div>
+				<label for="terminos-no">No</label>
+				<input id="terminos-no" type="radio" name="terminosycondiciones">
+				<label for="terminos-si">Si</label>
+				<input id="terminos-si" type="radio" name="terminosycondiciones">
+			<div>
+				<input type="file" name="foto">
+			</div>
+			<div>
+				<label for="seleccionarOpcion">Opciones</label>
+				<select id="seleccionarOpcion" name="seleccionarOpcion">
+					<option disabled="true" selected="true">Seleccioná algo</option>
+					<option>Opcion 1</option>
+					<option>Opcion 2</option>
+					<option>Opcion 3</option>
+				</select>
+			</div>
+			<div>
+				<label name="bday">Cumpleaños</label>
+				<input type="date" name="bday" id=nacimiento>
+			</div>
+			<div>
+				<label for="algoconrange">algo con range</label>
+				<input type="range" id="algoconrange" name="algoconrange" required>
+			</div>
+			<div>
+				<button type="submit">Enviar</button>
+				<button type="reset">limpiar</button>
+				<button type="button">No hace nada(aun)</button>
+			</div>
+			
+		</form>	
+	</body>
+
+
+</html>
