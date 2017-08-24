@@ -1,0 +1,31 @@
+#contenedor{
+	margin:0 auto;
+	width:1200px;
+	height:900px;
+}
+
+.color1{
+	background-color: #27C2DE;
+	float:left;
+	height:900px;
+	width:300px;
+}
+
+.color2{
+	background-color: #57BA6E;
+	float:left;
+	height:900px;
+	width:300px;
+}
+.color3{
+	background-color: #B747C4;
+	float:right;
+	height:900px;
+	width:300px;
+}
+.color4{
+	background-color: #7E7474;
+	float:right;
+	height:900px;
+	width:300px;
+}
