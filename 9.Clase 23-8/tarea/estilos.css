@@ -4,28 +4,35 @@
 	height:900px;
 }
 
+.texto{
+	color:transparent;
+}
+
 .color1{
 	background-color: #27C2DE;
 	float:left;
 	height:900px;
-	width:300px;
+	width:150px;
 }
-
+.texto:hover{
+	opacity:0.7;
+	color:white;
+}
 .color2{
 	background-color: #57BA6E;
 	float:left;
 	height:900px;
-	width:300px;
+	width:150px;
 }
 .color3{
 	background-color: #B747C4;
-	float:right;
+	float:left;
 	height:900px;
-	width:300px;
+	width:150px;
 }
 .color4{
 	background-color: #7E7474;
-	float:right;
+	float:left;
 	height:900px;
-	width:300px;
+	width:150px;
 }
