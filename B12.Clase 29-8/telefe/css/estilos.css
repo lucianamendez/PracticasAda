@@ -1,0 +1,25 @@
+*{
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.B{
+	display:inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius:50%;
+	box-shadow: 1px 1px 1px 1px;
+	background-color: blue;
+
+}
+
+.G{
+	background-color: green;
+
+}
+
+.R{
+	background-color: red;
+
+}

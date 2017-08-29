@@ -1,0 +1,63 @@
+*{
+	text-align: center;
+	font-family: 'Baloo Tammudu', cursive;
+	text-decoration: none;
+	list-style: none;
+}
+
+#logo{
+	display: inline;
+	font-size: 72pt;
+	z-index:1;
+	position:relative;
+	left:50px;
+	margin-right: 50px;
+	color:#291882;
+	border:7px solid red;
+	
+
+}
+
+.caja{
+	display:inline-block;
+	border:7px solid #291882;
+	background-color: white;
+}
+
+.menu{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14pt;
+	margin-right: 10px;
+	padding-left:20px;
+
+}
+
+.submenu {
+	display:inline-block;
+	background-color: transparent;
+	border:7px solid transparent;
+	border-radius:100%;
+	vertical-align:-150px;
+	text-align: center;
+	padding-right: 40px;
+
+
+	
+}
+
+.submenu:hover{	
+	background-color: red;
+	border:7px solid red;
+	
+}
+
+.subitems a{
+	color:white;
+}
+
+.subitems a:hover{
+	color:#291882;
+
+}
+
