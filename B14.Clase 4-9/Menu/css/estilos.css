@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+header{
+}
+
+
+nav{
+	background-color:cyan;
+	position:relative;
+
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+nav .submenu{
+	position:absolute;
+	display:none;
+}
+
+nav .submenu li{
+	display: block;
+}
+
+nav .ancla:hover .submenu{
+	position:absolute;
+	display:block;
+}
