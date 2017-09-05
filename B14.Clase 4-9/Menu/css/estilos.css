@@ -1,15 +1,12 @@
 *{
 	margin:0;
-	padding:0;
-}
-
-header{
+	padding:0px;
+	font-size: 30px;
 }
 
 
 nav{
 	background-color:cyan;
-	position:relative;
 
 }
 
@@ -17,16 +14,43 @@ nav ul li{
 	display:inline-block;
 }
 
+nav .ancla{
+	display:inline-block;
+	position:relative;
+}
+
+
 nav .submenu{
 	position:absolute;
 	display:none;
+	width:300px;
+}
+
+
+nav ul li{
+	padding-right:100px;
 }
 
 nav .submenu li{
-	display: block;
+	display:block;
 }
 
-nav .ancla:hover .submenu{
+
+nav .submenu2{
 	position:absolute;
+	right:-300px;
+	display:none;
+}
+
+nav .submenu2 li{
 	display:block;
+}
+
+
+nav .ancla:hover .submenu{
+	display:block;
+}
+
+nav .ancla:hover .submenu2{
+	display:block;	
 }
