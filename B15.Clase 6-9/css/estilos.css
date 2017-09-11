@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family:Arial;
+}
+
+header{
+	margin:20px 100px;
+	width: 80%;
+	border: 5px solid black;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+
+	
+}
+
+header .menu{
+	width:200px;
+	display:flex;
+	list-style: none;
+	position:relative;
+
+}
+
+nav .menu a {
+	font-size: 18pt;
+	border:5px solid black;
+	text-decoration: none;
+	color:black;
+	padding:10px;
+} 
+
+nav .menu a:hover {
+	font-weight: bold;
+} 
+
+.submenu{
+	display:none;
+	position:absolute;
+	text-decoration: none;
+	color:black;
+}
+
+.submenu:hover{
+	display:none;
+}
