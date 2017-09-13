@@ -1,0 +1,48 @@
+.Largo{
+	height:500px;
+}
+
+.Gris{
+	background-color:grey; 
+}
+.Amarillo{
+	background-color:yellow;
+}
+.Celeste{
+	background-color:lightblue;
+}
+.Verde{
+	background-color:green;
+}
+.Rosa{
+	background-color:#FF00D8;
+}
+.Rojo{
+	background-color: red;
+}
+
+.Medio{
+	height:200px;
+}
+.Chico{
+	height:100px;
+}
+
+.Azul{
+	background-color:blue;
+}
+.Negro{
+	background-color:black;
+}
+.Topo{
+	background-color: #4A566A
+
+}
+.Blanco{
+	background-color: white;
+
+}
+.Gradiente{
+	background:linear-gradient(to right,white,black);
+
+}
