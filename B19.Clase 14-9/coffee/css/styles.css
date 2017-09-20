@@ -1,0 +1,103 @@
+body{
+	background-image: url(../img/fondo.jpg)
+}
+
+.baner{
+	background-color:rgba(255,255,255,0.5);
+	height:14em;
+}
+
+.logo{
+	position:relative;
+	top:4em;
+}
+
+.imagen{
+	width:100%;
+}
+
+.NavBar{
+	margin-top: 5.5em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.NavBar a{	
+	text-decoration: none;
+	color:black;
+	font-size: 1.3em;
+}
+
+.NavBar a:hover{
+	font-weight: bold;
+}
+
+.SectionAside{
+	 height: 60em;
+}
+
+
+.principal{
+	background-color:#82E8B7;
+	padding: 2em;
+	height: 60em;
+	
+}
+
+section p{
+	text-align: justify;
+	word-spacing: 2px;
+	line-height:2.5em;
+}
+
+.BoxCaja{
+	background: grey;
+	height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+   
+}
+
+.Caja{
+	border: 3px dashed black;
+    padding:5em;
+    height:18em;
+    margin-bottom: 1em;
+    margin-top:1em;
+    
+}
+
+.Caja p{
+	font-size: 1em;
+	text-align:center;
+	font-weight:bold;
+	line-height:8em;
+	letter-spacing:0.1em;
+}
+
+.foot{
+	background-color:rgba(255,255,255,0.5);
+	height:6em;
+}
+
+
+#firma{
+	font-size:1.2em;
+	line-height:5em;
+}
+
+.redes{
+	float:right;
+	margin-right:1em;
+}
+
+.redes a{
+	font-size:1.2em;
+	line-height:5em;
+	margin-left:1em;
+	color:black;
+}
+	

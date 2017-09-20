@@ -1,0 +1,20 @@
+.violeta{
+	background-color: #23034A;
+	color:white;
+}
+
+
+.borde{
+	background-color:white;
+	color:black;
+	border:1px solid grey;
+	padding:20px;
+	font-size:20px;
+}
+
+
+.Caja{
+	background-color:orange;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
